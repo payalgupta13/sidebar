@@ -32,6 +32,11 @@
             align-items: center;
             padding: 5px 20px;
             cursor: pointer;
+            text-decoration: none;
+            color: black;
+        }
+        .active-menu{
+            background-color: bisque;
         }
         .menu-item:hover{
             background-color: rgb(255, 0, 162);
@@ -41,6 +46,7 @@
         }
         .menu-text{
             margin-left: 5px;
+        
         }
         /* .menu-icon{ */
             /* height:10px; */
@@ -65,22 +71,22 @@
     <body>
         <div class="container">
             <div class="sidebar">
-            <a class="menu-items">
+            <a class="menu-items active-menu" href="./index.html">
                 <img src="home.png" class="menu-icon">
                 <span class="menu-text">Home</span>
             </a>
 
-            <a class="menu-items">
+            <a class="menu-items" href="./pages/course.html.html">
                 <img src="books.png" class="menu-icon">
                 <span class="menu-text">Courses</span>
             </a>
 
-            <a class="menu-items">
+            <a class="menu-items" href="./pages/profile.html">
                 <img src="profile.png" class="menu-icon">
                 <span class="menu-text">Profile</span>
             </a>
 
-            <a class="menu-items">
+            <a class="menu-items" href="./pages/setting.html">
                 <img src="set.png" class="menu-icon">
                 <span class="menu-text">Setting</span>
             </a>
