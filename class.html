@@ -9,7 +9,18 @@
             padding: 0px;
         }
         .container{
-            background-color: deeppink;
+            /* background-color: deeppink; */
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar{
+            background-color: aqua;
+            width: 200px;
+
+        }
+        .content{
+            background-color: cadetblue;
+            width: 100%;
         }
         /* small Device */
 @media screen and (max-width: 600px){
@@ -31,7 +42,10 @@
     <body>
         <div class="container">
             <div class="sidebar">
-                side bar
+            <div class="menu-items">
+                <img src="home.png" height="25px" class="menu icons"/>
+                <span class="menu-text">Home</span>
+            </div>
             </div>
             <div class="content">
                 content
